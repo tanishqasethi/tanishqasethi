@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borcelle | Ecommerce Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="Menu Items">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Categories.html">Category</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+              <img src="cart 3.png" width="50px" height="50px">
+                <img src="menu.png" class="menu-icon" onclick="menutoggle()" >
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <img src="background.png" width="750px">
+                </div>
+                <div class="col-2">
+                    <h1>Flowers are never a bad idea<br>Pic your favourites</h1>
+                    <p>Give someone a flower today<br>Bouqets for any occasion</p>
+                    <a href=""class="btn">Explore Now &#10141;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--featured categories-->
+    <div class="categories">
+        <div class="small-container">
+            <div class="top">
+                <div class="col-3">
+                    <img src="white flo.jpg" width="350px" height="350px">
+                </div>
+                <div class="col-3">
+                    <img src="bouqet 1.jpg" width="350px" height="350px">
+                </div>
+                <div class="col-3">
+                    <img src="bouqet2.jpg" width="350px" height="350px">
+                </div>
+        
+                
+    </div>
+   
+    
+     <!------brands----->
+     <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="godrej.png">
+                </div>
+                <div class="col-6">
+                    <img src="oppo.png">
+                </div>
+                <div class="col-6">
+                    <img src="gpay.png">
+                </div>
+                <div class="col-6">
+                    <img src="phn pe.png">
+                </div>
+                <div class="col-6">
+                    <img src="Paytm.png">
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-----footer---->
+     <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="android.png">
+                        <img src="ios logo.png">
+                    </div>
+                </div>
+                <div class="footer-col-7">
+                    <img src="logo.png">
+                    <p>Our purpose is to sustainability make the pleasure.</p>
+                </div>
+                <div class="footer-col-8">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Posts</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                    <div class="footer-col-9">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2022 - Borcelle</p>
+        </div>
+     </div>
+     <!-- js for toggle menu -->
+     <script>
+         var MenuItems= document.getElementById("MenuItems")
+         MenuItems.style.maxHeight = "0px;"
+         function menutoggle(){
+            if(MenuItems.style.maxHeight == ("0px"))
+            {
+                MenuItems.style.maxHeight = "200px;"
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px;"
+            }
+         }
+     </script>
+</body>
+</html>
