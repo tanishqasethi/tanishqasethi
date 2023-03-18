@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT-1</title>
+
+<style>
+    
+    
+       input[type=text],select{
+        width:100%;
+        padding:12px;
+        border:1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+} 
+input[type=number]{
+        width:100%;
+        padding:12px;
+        border:1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+}
+/* input[type=password] {
+    width:100%;
+        padding:12px;
+        border:1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+} */
+input[type=login]{
+    margin-top: 20px;
+    margin-left: 80%;
+    background-color: #d64a0e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=login]:hover{
+    background-color: #45a049;
+}
+.container{
+    border-radius: 5px;
+    padding: 20px;
+    background-color: black;
+    color: #ccc;
+    
+}
+</style>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <form action="action_page.php">
+            <label for="fname">FIRST NAME</label>
+            <input type="text" id="fname" name="firstname" placeholder="YOUR NAME..">
+
+            <label for="lname">LAST NAME</label>
+            <input type="text" id="lname" name="lastname" placeholder="YOUR LAST NAME..">
+             
+            <label for="Roll no">Roll no.</label>
+            <input type="number" id="number" name="number" placeholder="ROLL NO.">
+
+            <label for="age">AGE</label>
+            <select id="AGE" number="AGE">
+                <option value="Below 18">Below 18</option>
+                <option value="Above 18">Above 18</option>
+            </select>
+
+
+
+            <label for="courses">Courses</label>
+            <select id="courses" name="Courses">
+                <option value="BCA">BCA</option>
+                <option value="Btech">Btech</option>
+                <option value="Cse">Cse</option>
+                <option value="AIML">AIML</option>
+                <option value="BBA">BBA</option>
+                <option value="MBA">MBA</option>
+                
+            </select>
+
+            <label for="Year">Year</label>
+            <select id="Year" name="Year">
+                <option value="1st">1st</option>
+                <option value="2nd">2nd</option>
+                <option value="3rd">3rd</option>
+                <option value="4th">4th</option>
+                
+                
+            </select>
+
+            <label for="Semester">Semester</label>
+            <select id="Semester" name="Semester">
+                <option value="1st">1st Sem</option>
+                <option value="2nd">2nd Sem</option>
+                <option value="3rd">3rd Sem</option>
+                <option value="4th">4th Sem</option>
+                <option value="5th">5th Sem</option>
+                <option value="6th">6th Sem</option>
+                <option value="7th">7th Sem</option>
+                <option value="8th">8th Sem</option>
+                
+            </select>
+
+            <label for="cont">Contact no.</label>
+            <input type="number" id="cont" number="contact no." placeholder="Enter your contact number">
+
+            <label for="email">Email-ID</label>
+            <input type="text" id="email" name="email" placeholder="YOUR EMAIL..">
+            
+            <!-- <label for="pass">Password</label>
+            <input type="password" id="pass" password="password" placeholder="Password must contain 8 characters"><br> -->
+
+            <label for="Gender">Male</label>
+            <input type="radio" id="gender" gender="Male" value="Male">
+            <label for="Gender">Female</label>
+            <input type="radio" id="gender" gender="Female" value="Female">
+            <label for="Gender">Others</label>
+            <input type="radio" id="gender" gender="Others" value="Others">
+             <br>
+
+
+            <input type="login" value="LOG IN">
+
+            
+        </form>
+    </div>
+</body>
+</html>
